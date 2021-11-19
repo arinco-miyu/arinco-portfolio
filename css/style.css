@@ -411,9 +411,9 @@ text-align: center;
 #works .grid li {
     padding: 10px 15px;
 }
-#works .sort-btn li.active{
-    /* background:#ccc; */
-}
+/* #works .sort-btn li.active{
+    background:#ccc;
+} */
 #works .fancybox-thumbs {
     background: transparent!important;
 }
