@@ -1,15 +1,12 @@
-// JavaScript Document
-
 (function ($) {
   $(function () {
 
     // スムーズスクロール設定
-    const scrollSpeed = 600; // スクロール時間（ミリ秒）
-    const fixedHeaderOffset = false; // 固定ヘッダー用スクロール量調整ON/OFF（true/false）
-    const additionalOffset = 0; // スクロール量調整（px）
+    const scrollSpeed = 600;
+    const fixedHeaderOffset = false;
+    const additionalOffset = 0;
     // トップへ戻るボタン設定
-    const buttonOffset = 500; // トップへ戻る固定ボタンを表示するスクロール量（px）
-
+    const buttonOffset = 1500;
 
     // スムーズスクロール
     $('a[href^="#"]').on('click', function () {
