@@ -5,19 +5,6 @@
 html {
     scroll-behavior: smooth;
 }
-
-/* トップに戻るボタン */
-.back-top {
-    position: fixed;
-    bottom: 220px;
-    left: 50%;
-    display: none;
-    margin-left: 400px;
-}
-.back-top a{
-    font-size: 60px;
-    color: #AAEBE1;
-}
 body {
     font-family:  '游ゴシック','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo','Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif ;
     font-size: 16px;
@@ -87,7 +74,6 @@ footer .inner .bottomnav {
 .bottomnav nav ul li:hover{
     color: #A3A3A3;
 }
-
 
 /* -------------------
 　　　トップページ
@@ -177,8 +163,7 @@ footer .inner .bottomnav {
     width: 480px;
 }
 
-
-/*　about moreボタン */
+/*　about more */
 #home .aboutmore {
     margin-bottom: 100px;
 }
@@ -206,8 +191,7 @@ footer .inner .bottomnav {
     color: #707070;
 }
 
-
-/* work */
+/* workS */
 #home main .topwork {
     background-color: #F3FDFE;
     margin-bottom: 120px;
@@ -257,20 +241,14 @@ footer .inner .bottomnav {
     border: 2px solid #BDCFFD;
     color: #707070;
 }
-
 #home .lightbox .lb-image { 
-    /* Image border */
     border: none;
   }
-  
-
 #home .lb-number {
     display: none !important;
 }
 
-
 /* contact */
-
 #home .contact {
     margin-bottom: 100px;
 }
@@ -300,7 +278,7 @@ input[type=text]:focus,input[type=email]:focus,input[type=tel]:focus,textarea:fo
 	background-color: #F3FDFE;
 }
 
-/* contact 送信ボタン */
+/* contact 送信 */
 #home main .contact form p:last-child {
     text-align: center;
 }
@@ -319,12 +297,22 @@ input[type=text]:focus,input[type=email]:focus,input[type=tel]:focus,textarea:fo
     color: #707070;
 }
 
-
+/* トップに戻る */
+.back-top {
+    position: fixed;
+    bottom: 220px;
+    left: 50%;
+    display: none;
+    margin-left: 400px;
+}
+.back-top a{
+    font-size: 60px;
+    color: #AAEBE1;
+}
 
 /* -------------------
 　　プロフィールページ
 ---------------------- */
-
 #about main .inner .abouttext {
     margin-bottom: 80px;
 }
@@ -334,13 +322,11 @@ input[type=text]:focus,input[type=email]:focus,input[type=tel]:focus,textarea:fo
     color: #B2C6FC;
     margin-bottom: 50px;
 }
-
 #about main .inner .abouttext
  p {
      padding-left: 80px;
      padding-right: 80px;
 }
-
 
 /* プロフィール */
 #about main .inner .profile {
@@ -361,7 +347,6 @@ input[type=text]:focus,input[type=email]:focus,input[type=tel]:focus,textarea:fo
     font-size: 30px;
 }
 
-
 /* 使用可能ツール・資格 */
 #about main .bgc {
     background-color: #F3FDFE;
@@ -379,11 +364,9 @@ input[type=text]:focus,input[type=email]:focus,input[type=tel]:focus,textarea:fo
     font-size: 20px;
     padding: 20px;
 }
-
 #about main .bgc .inner .column .right {
     margin-left: 100px;
 }
-
 
 /* -------------------
     　　works
@@ -392,7 +375,6 @@ input[type=text]:focus,input[type=email]:focus,input[type=tel]:focus,textarea:fo
     padding-left: 75px;
     padding-right: 75px;
 }
-
 #works .inner main .workstext {
     margin-bottom: 80px;
 }
@@ -404,7 +386,6 @@ input[type=text]:focus,input[type=email]:focus,input[type=tel]:focus,textarea:fo
 }
 #works .inner main .workstext div {
     text-align: center;
-
 }
 
 /* カテゴリー */
@@ -419,7 +400,6 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
-
 #works .sort-btn .worksnav li{
     padding-left: 20px;
     padding-right: 20px;
@@ -428,30 +408,19 @@ text-align: center;
 #works .sort-btn .worksnav li:last-child {
     border-right: none;
 }
-
 #works .grid li {
     padding: 10px 15px;
 }
-
-/*==================================================
-ギャラリーのためのcss
-===================================*/
-
-/*＝＝＝並び替えボタンのCSS*/
-
-    /* ボタンに現在地＝activeというクラス名がついたら背景色を変更 */
-　.sort-btn li.active{
+#works .sort-btn li.active{
     background:#ccc;
 }
-/*＝＝＝fancyboxサムネイル背景と画像選択時の枠線の指定*/
-.fancybox-thumbs {
+#works .fancybox-thumbs {
     background: transparent!important;
 }
-.fancybox-thumbs__list a:before {
+#works .fancybox-thumbs__list a:before {
     border: 6px solid #FA999B;
 }
-
-.fancybox-caption__body {
+#works .fancybox-caption__body {
     text-align: justify;
     padding-left: 20%;
     padding-right: 20%;
