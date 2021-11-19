@@ -32,11 +32,4 @@
         height:auto;
         vertical-align: bottom;
     }
-    
-    /*横幅が768px以下*/
-    @media only screen and (max-width: 768px) {
-    .item {
-      width: 49.5%;
-    }
-    }
-    
+        
