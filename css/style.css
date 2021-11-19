@@ -412,7 +412,7 @@ text-align: center;
     padding: 10px 15px;
 }
 #works .sort-btn li.active{
-    background:#ccc;
+    /* background:#ccc; */
 }
 #works .fancybox-thumbs {
     background: transparent!important;
