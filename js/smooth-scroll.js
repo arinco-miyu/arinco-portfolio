@@ -8,7 +8,7 @@
     const fixedHeaderOffset = false; // 固定ヘッダー用スクロール量調整ON/OFF（true/false）
     const additionalOffset = 0; // スクロール量調整（px）
     // トップへ戻るボタン設定
-    const buttonOffset = 1500; // トップへ戻る固定ボタンを表示するスクロール量（px）
+    const buttonOffset = 1000; // トップへ戻る固定ボタンを表示するスクロール量（px）
 
 
     // スムーズスクロール
